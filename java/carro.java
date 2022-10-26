@@ -1,5 +1,5 @@
 package java;
-// Classe Conceitos + Exercício:
+// Classe Conceitos + Exercício:     "java.home": "C:\\Program Files\\Java\\jdk-19",
 
 class Carro {
 
