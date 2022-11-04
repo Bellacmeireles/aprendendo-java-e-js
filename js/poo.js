@@ -88,3 +88,32 @@ class Disciplina{
 }
 const d1 = new Disciplina(123,'matemática');
 console.log(d1.codigo)
+
+
+/* Ex6: Aula 13 - Herança - Superclasse e Subclasse */ 
+
+class Dog {
+    raca;
+    peso;
+    constructor(raca, peso) {
+        this.raca = raca;
+        this.peso = peso;
+    }
+}
+
+class Racao extends Dog {
+    marca;
+    quilio;
+    constructor(marca, quilo) {
+        super()
+        this.marca = marca;
+        this.quilo = quilo;
+    }
+}
+
+const mix = new Dog('produtos Comprados' ,'35kg');
+const ali = new Racao('Golden' ,22);
+console.log(mix);
+console.log(ali);
+
+/* Ex6: Aula 14 - Herança - Atributos e Métodos */ 
