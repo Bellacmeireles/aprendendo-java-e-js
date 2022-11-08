@@ -116,4 +116,4 @@ const ali = new Racao('Golden' ,22);
 console.log(mix);
 console.log(ali);
 
-/* Ex6: Aula 14 - Herança - Atributos e Métodos */ 
+/* Ex6: */
