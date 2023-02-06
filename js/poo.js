@@ -117,3 +117,4 @@ console.log(mix);
 console.log(ali);
 
 /* Ex6: */
+// "liveServer.settings.CustomBrowser": "chrome"
